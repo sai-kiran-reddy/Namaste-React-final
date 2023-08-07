@@ -1,0 +1,11 @@
+npx => executing npm package
+npm init => will setup npm usage for the repo and create package.json
+bundler(parcel) => code gets cleaned,bundling js , css and html together and gives production build 
+dev dependencies =>  used for developer environmet
+ "parcel": "^2.9.3" => "^" it will automatically update minor versions like 2.9.4
+ "parcel": "~2.9.3" => "~" it will automatically update maijor versions like 3.0.0 or 4.0.0
+ package vs package.lock.json => package.json will keep approximate versions and lock.json will have exact version like if there is a minor version upgradde like 2.9.4.1 this will be updated in lock.son and not in package.json
+ In package.lock.json we have integrity field which will make sure whaterver in our local will be the same file which deploys to production
+ when we are giving <script type="module" /> which means the source of the code is coming from node modules
+ parcel does hmr (hot module replacement), tree shaking (removes unused code)
+ Dist folder will be created with parcel which will have compressed code when we build new code it will differentiate with dist folder using hmr and parcel-cache which will make build faster
