@@ -9,3 +9,17 @@ dev dependencies =>  used for developer environmet
  when we are giving <script type="module" /> which means the source of the code is coming from node modules
  parcel does hmr (hot module replacement), tree shaking (removes unused code)
  Dist folder will be created with parcel which will have compressed code when we build new code it will differentiate with dist folder using hmr and parcel-cache which will make build faster
+React.CreateElemet will create a object once after the rendering by the root element(root.render()) react element is converted into html
+root.render() will replace the elements present in that particular tag
+jsx is differnt from html . jsx is html like syntax but its not html in javascript. 
+parcel builds the code(using treeshaking, code splitting) => babel tranpiles the code to browser understandable code.
+jsx => transpiled to React.CreateElemet by babel (js compiler)=> js object => render into html
+babel transpiles typescript and flow also to javascript
+all Attributes in jsx are camelcasing
+for multiple lines usage in jsx we use paranthesis() to notify babel where it is starting of jsx
+everything in react is a component (class based and functional component) which will start with capital letters
+React function component is a javascript functions which will return jsx element .
+To render a react element use root.render(elemnet) for component we use root.render(<Element />) 
+Component composition is a component inside another.
+
+
