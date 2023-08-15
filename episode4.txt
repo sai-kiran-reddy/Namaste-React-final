@@ -1,0 +1,6 @@
+In css .className > childName > childName
+passing prop is same as passing parameters
+when we are passing props React will convert them into object and will send to function parameter we can destructring and use it 
+config driven UI :  based on the data from backend we will design our frontend app
+why key is important while rendering : when we add the key for the element react remebers. while rerendering it will compare the id's and rerenders only the newly added component
+React bad practice : we shouldn't use idexes as key 

@@ -9,7 +9,10 @@ dev dependencies =>  used for developer environmet
  when we are giving <script type="module" /> which means the source of the code is coming from node modules
  parcel does hmr (hot module replacement), tree shaking (removes unused code)
  Dist folder will be created with parcel which will have compressed code when we build new code it will differentiate with dist folder using hmr and parcel-cache which will make build faster
-React.CreateElemet will create a object once after the rendering by the root element(root.render()) react element is converted into html
+
+-----------------------------------------------------------------------------------------------------------
+
+React.CreateElemet will create a object . after that by rendering the root element(root.render()) react element is converted into html
 root.render() will replace the elements present in that particular tag
 jsx is differnt from html . jsx is html like syntax but its not html in javascript. 
 parcel builds the code(using treeshaking, code splitting) => babel tranpiles the code to browser understandable code.
@@ -22,4 +25,9 @@ React function component is a javascript functions which will return jsx element
 To render a react element use root.render(elemnet) for component we use root.render(<Element />) 
 Component composition is a component inside another.
 
+--------------------------------------------------------------------------------------
+we can write javascript code inside jsx with {20+30}
+similarly for adding a element is jsx we should use {} ex: const title = <h1> this is a element</h1>; const Function = () => <div> {title} </div> we can use it as also function call like {title()}
+same way we can use element inside element 
+jsx prevents santises data and stop this cross scripting attack when we are using data inside {}
 
