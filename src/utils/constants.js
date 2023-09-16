@@ -1,0 +1,2 @@
+export const CDN_URL  = "https://lh3.googleusercontent.com/oEm99s7dAg9xGVCzzjftCInsi0zMEoZJm4jldH1CoegeBRN5nyUwEiX5ICgH7VAP9E2oTzoab5USzSkY38UMLV38Gw=w512-rw";
+export const LOGO_URL = "https://cdn.dribbble.com/users/1635051/screenshots/4291569/socio_curry_logo-01.png";

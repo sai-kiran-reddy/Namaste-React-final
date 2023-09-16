@@ -1,0 +1,10 @@
+export default Header => in this case while importing we will simply use import Header;
+if we have multiple exports => like export const Header => in this case while importing we will use import {Header} because all the exports are sent as objects and they will be destructred in the import 
+whenever state variable changes react rerenders its component   
+React is best at dom manipulations
+virtual dom is the respresentation of actual dom. but it is an object 
+react fiber is an ongoing implementation of react core algorithm uses reconsilation algorithm or diff algorithm. when the state variable (usestate) gets updated virtualdom compares what data in object got changed and only then it updates Real dom.
+its easy to compare objects rather than html elements.
+
+React fiber:
+react fiber is the next version of react core algorithm came in React 16 now React 18 is running .
