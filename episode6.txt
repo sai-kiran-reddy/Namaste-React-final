@@ -1,0 +1,18 @@
+Monolith architecture : backend and frontend are both present in same repo
+microservices : UI , API, AUTH will be in differnt repos and each will have different responsibilities 
+multiple services gets deployed on different urls with same domain name ex: namaste-dev/api
+React rendering mechanism is faster
+
+useeffect hook : 
+hook is a normal javascript function with each one having its own use case.
+useeffect(callbackfn(),dependency array);
+useeffect will be called after the body is rendered .
+optional chanining instead of using && conditions (like checking the data cards.card && cards.card.info) we can use options chanining like cards?.card?.info
+To show the dummy cards before the ui loads we will use a mothd called shimmer UI.
+to by pass the cors error we use cors plugin 
+we can update the name and state of the variable in html by using onclick function . but what will be the difference of html and react the difference is virtual dom in the case of html we are updating the button every time of the click even if the data doesn't change button refreshers but incase of react it won't 
+
+we can't update the const variable but we are using const[x,y] = usestate(''); because whenever the state updates react will render(call) the entire function inreturn it will become new x with new value
+when we are changing state variable react triggers reconsilation(rerenders entire component);
+react will create a virtual dom . when we update state variable react algo compares two virtual doms and will update the real dom
+=======================================================================================
