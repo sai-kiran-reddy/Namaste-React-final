@@ -1,0 +1,11 @@
+useeffect will be called after every render when there is no dependency array 
+useeffect will be called after first initial render when the dependency aarray is empty = []
+when we have something in dependecy array it will be called when the item in the dependecy array changes
+Never usestate inside if condition , forloops.
+Configuration of the router Means information which tell router what will happen on the specific route.
+Router : we have two methods createBrowserRouter (creates configuration) , RouteerProvider (combine routes of particular pages to one homepage)
+in createBrowserRouter it takes input an aarray of objects in which one takes path of the argument and other one takes element as a argument
+useroutererror is best way to manage the error
+
+
+
